@@ -1,0 +1,153 @@
+body {
+  margin: 0 auto;
+   width: 100%;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+
+}
+.ontop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background:	#CE2123;
+  color: white;
+  flex-flow: row wrap;
+}
+.left #contacts {
+  display: flex;
+  list-style: none;
+}
+.left #contacts #address {
+  margin-left: 10px;
+}
+.navmenu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+  text-transform: uppercase;
+
+}
+.navmenu ul {
+  display: flex;
+  list-style: none;
+}
+.navmenu ul li a{
+ text-decoration: none;
+ color: white;
+ text-transform: uppercase;
+}
+.navmenu  li {
+  padding: 15px 15px;
+}
+.masthead {
+  background-image: url('https://hostbangla.com/wp-content/uploads/2016/12/website-design-background.png');
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+  background-position: center;
+  width: 100%;
+  position: relative;
+}
+.masthead_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+  margin-top: 120px;
+  padding-bottom: 330px;
+  color: white;
+}
+.masthead_content h1 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+.masthead_content h1 span{
+  color: #CE2123;
+}
+.masthead_content p {
+  width: 600px;
+  line-height: 1.5;
+  margin-top: -17px;
+
+}
+.masthead_content #buttons {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  padding: 0 17px;
+  margin-left: -15px;
+}
+.masthead_content #buttons #one{
+  border: 1px solid #CE2123;
+  padding: 0px 21px;
+  background-color: #CE2123;
+  color: white;
+}
+.masthead_content #buttons #two{
+  padding: 0px 21px;
+  margin: 0 10px;
+  color: white;
+  background-color: transparent;
+}
+.summary {
+display: flex;
+justify-content: space-around;
+background: #CE2123;
+color: white;
+padding-top: 80px;
+padding-bottom: 80px;
+
+}
+.summary #left  p {
+  width: 800px;
+}
+.summary #left  h1 {
+}
+.summary #right {
+  margin-top: 80px;
+
+}
+.summary #right input {
+  width: 200px;
+  height: 50px;
+}
+.summary #right #two {
+background-color: transparent;
+color: white;
+}
+.services {
+  display: flex;
+  padding-top: 80px;
+  justify-content: space-around;
+}
+.servicegrid {
+  display: grid;
+  grid-template-columns: 2fr auto auto ;
+}
+.services #one p{
+  width: 800px;
+
+}
+.servicegrid #four {
+  margin-left: 598px;
+
+}
+.servicegrid #seven {
+  margin-top: -251px;
+  margin-left: 349px;
+}
+
+.servicegrid #two, #three, #four, #five, #six, #seven{
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+}
+.aboutus {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 
+}
+.onright p{
+  width: 800px;
+}
